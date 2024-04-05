@@ -1,9 +1,6 @@
 package org.mylearnings;
 
-import org.mylearnings.generics.Calculator;
-import org.mylearnings.generics.Consumer;
-import org.mylearnings.generics.GenericPrinter;
-import org.mylearnings.generics.IntegerConsumer;
+import org.mylearnings.generics.*;
 
 import java.util.stream.Stream;
 
@@ -28,5 +25,9 @@ public class Main {
         //Testing generic consumer
         Consumer<Integer> intConsumer = new IntegerConsumer();
         intConsumer.consume(sum);
+
+        //Utility class that returns the argument it takes -- compiler can infer the type based on the parameter passed
+        Integer util = Utility.util(1);
+        String test = Utility.util("Test");
     }
 }

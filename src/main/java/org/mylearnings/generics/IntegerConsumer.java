@@ -6,15 +6,9 @@ import java.util.List;
 public class IntegerConsumer implements Consumer<Integer>{
     List<Integer> intList = new ArrayList<>();
     @Override
-    public void consume(Integer param) {
-        intList.add(param);
+    public boolean consume(Integer param) {
+        return param > 10 ?false : intList.add(param);
     }
 
-    public List<Integer> getIntList() {
-        return intList;
-    }
 
-    public void setIntList(List<Integer> intList) {
-        this.intList = intList;
-    }
 }
