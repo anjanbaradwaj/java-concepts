@@ -1,7 +1,9 @@
 package org.mylearnings;
 
 import org.mylearnings.generics.Calculator;
+import org.mylearnings.generics.Consumer;
 import org.mylearnings.generics.GenericPrinter;
+import org.mylearnings.generics.IntegerConsumer;
 
 import java.util.stream.Stream;
 
@@ -22,5 +24,9 @@ public class Main {
         Calculator cal = new Calculator();
         Integer sum = cal.add(a, b);
         System.out.println(sum);
+
+        //Testing generic consumer
+        Consumer<Integer> intConsumer = new IntegerConsumer();
+        intConsumer.consume(sum);
     }
 }
