@@ -1,4 +1,4 @@
-package org.mylearnings;
+package org.mylearnings.generics;
 
 import org.junit.After;
 import org.junit.Before;
