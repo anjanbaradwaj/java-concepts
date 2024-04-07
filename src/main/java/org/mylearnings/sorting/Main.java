@@ -12,6 +12,18 @@ public class Main {
         bubbleSort.sort(arr);
         printArray("BubbleSort", arr);
 
+        InsertionSort insertionSort = new InsertionSort();
+        insertionSort.sort(arr);
+        printArray("InsertionSort", arr);
+
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.mergesort(arr);
+        printArray("MergeSort", arr);
+
+        QuickSort quickSort = new QuickSort();
+        quickSort.sort(arr, 0, arr.length - 1);
+        printArray("QuickSort", arr);
+
     }
 
     public static void printArray(String type, int[] arr) {

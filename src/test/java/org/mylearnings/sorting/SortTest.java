@@ -1,5 +1,6 @@
 package org.mylearnings.sorting;
 
+import com.sun.scenario.effect.Merge;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -28,6 +29,27 @@ public class SortTest {
     public void testBubbleSort() {
         BubbleSort bubbleSort = new BubbleSort();
         bubbleSort.sort(unSortedArr);
+        assertArrayEquals(sortedArr, unSortedArr);
+    }
+
+    @Test
+    public void testInsertionSort() {
+        InsertionSort insertionSort = new InsertionSort();
+        insertionSort.sort(unSortedArr);
+        assertArrayEquals(sortedArr, unSortedArr);
+    }
+
+    @Test
+    public void testMergeSort() {
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.mergesort(unSortedArr);
+        assertArrayEquals(sortedArr, unSortedArr);
+    }
+
+    @Test
+    public void testQuickSort() {
+        QuickSort quickSort = new QuickSort();
+        quickSort.sort(unSortedArr, 0, unSortedArr.length - 1);
         assertArrayEquals(sortedArr, unSortedArr);
     }
 

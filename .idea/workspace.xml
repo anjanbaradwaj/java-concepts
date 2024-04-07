@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e77d3aca-5996-4783-a933-e90fe799fc32" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mylearnings/sorting/SelectionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mylearnings/sorting/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mylearnings/sorting/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mylearnings/sorting/SortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SelectionSortTest">
+  <component name="RunManager" selected="JUnit.SortTest.testQuickSort">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.mylearnings.sorting.Main" />
       <module name="java-concepts" />
@@ -116,22 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.whenSerializingAndDeserializing_ThenObjectIsSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mylearnings.serialization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mylearnings.serialization" />
-      <option name="MAIN_CLASS_NAME" value="org.mylearnings.serialization.PersonTest" />
-      <option name="METHOD_NAME" value="whenSerializingAndDeserializing_ThenObjectIsSame" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-concepts" />
       <extension name="coverage">
@@ -147,13 +131,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortTest.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mylearnings.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mylearnings.sorting" />
+      <option name="MAIN_CLASS_NAME" value="org.mylearnings.sorting.SortTest" />
+      <option name="METHOD_NAME" value="testQuickSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SelectionSortTest" />
+        <item itemvalue="JUnit.SortTest.testQuickSort" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SelectionSortTest" />
         <item itemvalue="JUnit.EmployeeTest.whenCustomSerializingAndDeserialzing_ThenTheObjectIsSame" />
         <item itemvalue="JUnit.EmployeeTest" />
-        <item itemvalue="JUnit.PersonTest.whenSerializingAndDeserializing_ThenObjectIsSame" />
       </list>
     </recent_temporary>
   </component>
