@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e77d3aca-5996-4783-a933-e90fe799fc32" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mylearnings/serialization/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mylearnings/serialization/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mylearnings/sorting/SelectionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mylearnings/sorting/SortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-concepts" />
       <extension name="coverage">
         <pattern>
@@ -140,7 +141,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.mylearnings.sorting" />
-      <option name="MAIN_CLASS_NAME" value="org.mylearnings.sorting.SelectionSortTest" />
+      <option name="MAIN_CLASS_NAME" value="org.mylearnings.sorting.SortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
