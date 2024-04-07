@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e77d3aca-5996-4783-a933-e90fe799fc32" name="Changes" comment="More Generics examples&#10;&#10;Additional Tests">
+    <list default="true" id="e77d3aca-5996-4783-a933-e90fe799fc32" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/mylearnings/serialization/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mylearnings/serialization/PersonTest.java" afterDir="false" />
@@ -70,27 +70,21 @@
       <command value="mvn install" />
     </option>
   </component>
-
-  <component name="RunManager" selected="JUnit.EmployeeTest.whenCustomSerializingAndDeserialzing_ThenTheObjectIsSame">
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SelectionSortTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mylearnings.sorting.Main" />
       <module name="java-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mylearnings.generics.*" />
+          <option name="PATTERN" value="org.mylearnings.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.mylearnings.generics" />
-      <option name="MAIN_CLASS_NAME" value="org.mylearnings.generics.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-
-    <configuration name="CalculatorTest.addTwoIntegerNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
     <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-
       <module name="java-concepts" />
       <extension name="coverage">
         <pattern>
@@ -98,10 +92,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.mylearnings.generics" />
-      <option name="MAIN_CLASS_NAME" value="org.mylearnings.generics.CalculatorTest" />
-      <option name="METHOD_NAME" value="addTwoIntegerNumbers" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="PACKAGE_NAME" value="org.mylearnings.serialization" />
       <option name="MAIN_CLASS_NAME" value="org.mylearnings.serialization.EmployeeTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -109,7 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-
     <configuration name="EmployeeTest.whenCustomSerializingAndDeserialzing_ThenTheObjectIsSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-concepts" />
       <extension name="coverage">
@@ -120,26 +109,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.mylearnings.serialization" />
       <option name="MAIN_CLASS_NAME" value="org.mylearnings.serialization.EmployeeTest" />
-      <option name="TEST_OBJECT" value="class" />
-
       <option name="METHOD_NAME" value="whenCustomSerializingAndDeserialzing_ThenTheObjectIsSame" />
       <option name="TEST_OBJECT" value="method" />
-
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntegerConsumerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mylearnings.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mylearnings.generics" />
-      <option name="MAIN_CLASS_NAME" value="org.mylearnings.generics.IntegerConsumerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,15 +131,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mylearnings.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mylearnings.sorting" />
+      <option name="MAIN_CLASS_NAME" value="org.mylearnings.sorting.SelectionSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-
-        <item itemvalue="JUnit.EmployeeTest.whenCustomSerializingAndDeserialzing_ThenTheObjectIsSame" />>>>>>>> 661c0a386ad58c2b895520099121d9699c02e849
+        <item itemvalue="JUnit.SelectionSortTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.EmployeeTest.whenCustomSerializingAndDeserialzing_ThenTheObjectIsSame" />
         <item itemvalue="JUnit.EmployeeTest" />
         <item itemvalue="JUnit.PersonTest.whenSerializingAndDeserializing_ThenObjectIsSame" />
-        <item itemvalue="JUnit.IntegerConsumerTest" />
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.addTwoIntegerNumbers" />
       </list>
     </recent_temporary>
   </component>
