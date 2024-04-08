@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e77d3aca-5996-4783-a933-e90fe799fc32" name="Changes" comment="">
+    <list default="true" id="e77d3aca-5996-4783-a933-e90fe799fc32" name="Changes" comment="More Generics examples&#10;&#10;Additional Tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mylearnings/sorting/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mylearnings/sorting/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mylearnings/sorting/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,33 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortTest.testQuickSort">
+  <component name="RunManager" selected="Application.LearnLinkedListQueue">
+    <configuration name="LearnLinkedListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mylearnings.collections.LearnLinkedListQueue" />
+      <module name="java-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mylearnings.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mylearnings.collections.LearnStack" />
+      <module name="java-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mylearnings.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.mylearnings.sorting.Main" />
       <module name="java-concepts" />
@@ -81,21 +105,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mylearnings.serialization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mylearnings.serialization" />
-      <option name="MAIN_CLASS_NAME" value="org.mylearnings.serialization.EmployeeTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,21 +121,6 @@
       <option name="MAIN_CLASS_NAME" value="org.mylearnings.serialization.EmployeeTest" />
       <option name="METHOD_NAME" value="whenCustomSerializingAndDeserialzing_ThenTheObjectIsSame" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mylearnings.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mylearnings.sorting" />
-      <option name="MAIN_CLASS_NAME" value="org.mylearnings.sorting.SortTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LearnLinkedListQueue" />
+        <item itemvalue="Application.LearnStack" />
         <item itemvalue="JUnit.SortTest.testQuickSort" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.SelectionSortTest" />
         <item itemvalue="JUnit.EmployeeTest.whenCustomSerializingAndDeserialzing_ThenTheObjectIsSame" />
-        <item itemvalue="JUnit.EmployeeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +163,8 @@
       <workItem from="1712256434035" duration="499000" />
       <workItem from="1712302239847" duration="12627000" />
       <workItem from="1712395766261" duration="1122000" />
+      <workItem from="1712513529663" duration="388000" />
+      <workItem from="1712551604797" duration="7119000" />
     </task>
     <task id="LOCAL-00001" summary="More Generics examples&#10;&#10;Additional Tests">
       <created>1712336449674</created>

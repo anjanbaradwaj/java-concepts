@@ -12,11 +12,11 @@ public class QuickSort {
     }
 
     private static int partition(int[] arr, int low, int high) {
-        int pivot = arr[high];//4
-        int i = low - 1;//-1
+        int pivot = arr[high];
+        int i = low - 1;
         for (int j = low; j < high; j++) {
             if (arr[j] <= pivot) {
-                i++;//0
+                i++;
                 int temp = arr[j];
                 arr[j] = arr[i];
                 arr[i] = temp;
